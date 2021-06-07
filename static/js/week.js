@@ -1,15 +1,9 @@
-// 明天星期
-console.log(moment().add(1, 'days').format('dddd'))
-// 明天日期
-console.log(moment().add(1, 'days').format('MM/DD'))
-
 const weekWeather = document.querySelector('#week-weather')
 
 fetch("https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-D0047-003?Authorization="+CWB_API_KEY)
     .then(res => res.json())
     .then(data => data.records.locations[0].location[0].weatherElement)
     .then(data => {
-        console.log(data)
         for(let i = 0; i <7; i++){
 
             const cardGroup = document.createElement('div')
