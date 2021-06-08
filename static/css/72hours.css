@@ -1,0 +1,40 @@
+*{
+    letter-spacing: 2px;
+}
+.title{
+    font-size: 30px;
+    margin-left: 50px;
+    font-weight: 700;
+}
+.weather{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.time{
+    width: 150px;
+    padding: 5px;
+}
+.T{
+    padding: 5px;
+    margin-left: 40px;
+}
+.weatherIcon{
+    width: 20px;
+    height: 20px;
+    margin-left: 40px;
+    background-size: cover;
+}
+.Wx{
+    padding: 5px;
+    margin-left: 10px;
+}
+.CI{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #33A6B8;
+    color: #fff;
+    font-size: 15px;
+}
