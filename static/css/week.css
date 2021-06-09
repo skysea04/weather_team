@@ -1,0 +1,12 @@
+.week-weather{
+    font-size: 15px;
+}
+p{
+    margin-bottom: 0;
+}
+.week-date{
+    background-color: #519fb3;
+}
+.night-weather{
+    background-color: #FEFCF5;
+}
